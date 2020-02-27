@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fqs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MYs.IdleList"></activity>
+        <activity android:name=".MYs.About" />
+        <activity android:name=".MYs.Coupon" />
+        <activity android:name=".MYs.Account" />
+        <activity android:name=".MYs.CareOrder" />
+        <activity android:name=".commidity_fragment.ShoeGoodsActivity" />
+        <activity android:name=".commidity_fragment.OrnamentActivity" />
+        <activity android:name=".commidity_fragment.RepairActivity" />
+        <activity android:name=".commidity_fragment.ClothesActivity" />
+        <activity android:name=".ComDetailActivity" />
+        <activity android:name=".commidity_fragment.BagActivity" />
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".main_fragment.CareActivity" />
+        <activity android:name=".main_fragment.HomeActivity" />
+        <activity android:name=".main_fragment.IdleActivity" />
+        <activity android:name=".main_fragment.MyActivity" />
+        <activity android:name=".main_fragment.TopicActivity" />
+        <activity android:name=".begin.begin_register" >
+
+        </activity>
+        <activity android:name=".begin.begin_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".begin.begin_welcome" />
+    </application>
+
+</manifest>

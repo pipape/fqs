@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/bag_page"
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:layout_marginTop="30sp"
+        android:src="@drawable/bags">
+
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/shoes_page"
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:layout_marginTop="5sp"
+
+        android:src="@drawable/shoe"/>
+    <ImageButton
+        android:id="@+id/clothes_page"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5sp"
+        android:layout_height="120sp"
+        android:src="@drawable/clothes"/>
+
+    <ImageButton
+        android:id="@+id/orna_page"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5sp"
+        android:layout_height="120sp"
+        android:src="@drawable/orna"/>
+
+    <ImageButton
+        android:id="@+id/repair_page"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5sp"
+        android:layout_height="120sp"
+        android:src="@drawable/repair"/>
+
+</LinearLayout>

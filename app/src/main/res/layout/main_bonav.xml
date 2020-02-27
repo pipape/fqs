@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--使用FrameLayout当做盛放Fragment对象的容器-->
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <!--中间为一条分割线-->
+    <View
+        android:background="@color/radiobutton_selected"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <!--最下边为RadioGroup-->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--第一个RadioButton-->
+        <RadioButton
+            android:id="@+id/button_1"
+            android:text="主页"
+            android:button="@null"
+            android:textColor="@color/radiobutton_selected"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/bt_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!--第二个RadioButton-->
+        <RadioButton
+            android:id="@+id/button_2"
+            android:text="养护"
+            android:button="@null"
+            android:textColor="@color/radiobutton_selected"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/bt_care"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!--第三个RadioButton-->
+        <RadioButton
+            android:id="@+id/button_3"
+            android:text="闲置"
+            android:button="@null"
+            android:textColor="@color/radiobutton_selected"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/bt_idle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!--第四个RadioButton-->
+        <RadioButton
+            android:id="@+id/button_4"
+            android:text="主题"
+            android:button="@null"
+            android:textColor="@color/radiobutton_selected"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/bt_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!-- 第五个radiobutton-->
+        <RadioButton
+            android:id="@+id/button_5"
+            android:text="我的"
+            android:button="@null"
+            android:textColor="@color/radiobutton_selected"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/bt_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+</LinearLayout>
